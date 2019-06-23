@@ -24,28 +24,7 @@ To practice _OOP_ concepts, let's create 3 `class`es that use `constructor`
 methods. These `constructor`s will assign properties based on initial parameters.
 We'll also write methods that leverage these properties.
 
-1.  Create `class`es `Cat`, `Dog`, and `Bird`
-2.  Each of these `class`es will accept the _parameters_ `name` and `sex` and
-    will store those values as _properties_.
 
-```js
-class Cat {
-  //...
-}
-
-class Dog {
-  //...
-}
-
-class Bird {
-  //...
-}
-```
-
-For each `class`, create the method `speak`.
-
-- For an _instance_ of `Cat`, speak returns "`name` says meow!",
-- For an _instance_ of `Dog`, speak returns "`name` says woof!"
 - For an _instance_ of `Bird`, speak returns conditional output. If the
   _instance_ of `Bird` is `male`, speak returns "It's me! `name`, the parrot!". If
   it is not `male`, speak returns "`name` says squawk!".
